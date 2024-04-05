@@ -1,0 +1,203 @@
+
+/* Navigation Bar  */
+nav{
+  width:  Hug (1440px)px;
+/* width: 100%; */
+height: Hug (77px)px;
+top: 215px;
+left: 77px;
+padding: 26px 80px 26px 80px;
+gap: 0px;
+opacity: 0px;
+background: #6B3CC9;
+align-items: center;
+
+}
+
+/* AT Digital Logo */
+.logo{
+width: 238.89px;
+height: 25px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+/* Navigation Items */
+.navigations {
+   
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 28px;
+    float:right ;
+    margin:auto;
+    width: 381px;
+    height: 17px;
+ 
+
+}
+
+/* Navigation Links */
+.navigations a{
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: #FFFFFF;
+}
+
+.navigations a:hover{
+    color: #FFFFFF;
+
+}
+
+
+/* Description Box */
+.des span{
+    position: absolute;
+    width: Fixed (630px)px;
+height: Hug (306px)px;
+    background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%);
+    color: #FFFFFF;
+    padding: 24px 40px 32px 40px;
+    gap: 20px;
+    margin-top: -354px;
+    left: 80px;
+    opacity: 0px;
+    border: 1px;
+    border-radius: 4px;
+    z-index: 2; /* Ensure the .des element is on top */
+  
+}
+.des p{
+font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.des button{
+    width: Hug (214px)px;
+    height: Hug (38px)px;
+    padding: 12px 20px 12px 20px;
+    gap: 8px;
+    border-radius: 4px 4px 4px 4px;
+    opacity: 0px;
+    border: 0;
+    
+background: #F28D35;
+
+}
+
+
+
+/* Hero Section */
+.herosection {
+    position: relative;
+    height: 400px; /* Set a height for the .herosection */
+}
+
+/* Hero Image */
+.herosection img {
+    width: 100%;
+    height: 100%;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+.col-sm-6{
+width: Hug (1,064px)px;
+height: Hug (414px)px;
+top: 857px;
+left: 188px;
+gap: 108px;
+opacity: 0px;
+}
+
+
+.frame498 img{
+width: 414px;
+height: 414px;
+gap: 0px;
+opacity: 0px;
+}
+
+.frame92{
+
+width: Fixed (542px)px;
+height: Hug (187px)px;
+gap: 20px;
+opacity: 0px;
+/* margin-top: ; */
+
+}
+
+
+.title1{
+    /* //styleName: Poppins/H3 - Poppins 27px - SemiBold; */
+font-family: Poppins;
+font-weight: 600; /* Use 600 for semi-bold */
+font-size: 27px;
+line-height: 33px;
+letter-spacing: 0.4px; /* You can use a more readable value */
+text-align: left;
+color: rgba(107, 60, 201, 1);
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+
+width: Fixed 1,440px;
+height:266px;
+top: 2319px;
+padding: 40px 80px 20px 80px;
+gap: 40px;
+opacity: 0px;
+
+}
+
+
+/* @media screen and (max-width: 1440px) {
+    .left, .main, .right {
+      width: 100%; 
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .left, .main, .right {
+      width: 100%; 
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .left, .main, .right {
+      width: 100%; 
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .left, .main, .right {
+      width: 100%; 
+    }
+  } */
