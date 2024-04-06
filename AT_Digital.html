@@ -6,11 +6,14 @@
     <link rel="stylesheet" href="AT_Digital.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <title> AT Digital </title>
+
 </head>
 
 
 
 <body>
+
+
     <nav>
 <div class="logo">
     <img src="E:\Front-end Developer Intern - Careers AT Digital - Kasuni Nayanika\Careers-_AT-_Digital-Kasuni_-Nayanika\assets\Logo.png"/> </div>
@@ -90,24 +93,81 @@
     
 
 
-
-
-    <!-- <div class="row">
+    <!-- FAQ -->
+    <div class="row">
         <div class="col-12 col-md-3"></div>
-        
+      
         <div class="col-12 col-md-6">
-            <div class="FAQ">
-                <p>Frequently asked questions</h3>
-            </div>
-        
-          </div>
+          <div class="FAQ">
+            <p class="titlefaq">Frequently Asked Questions</p>
+            <div class="row">
+            <div class="card">
+                <div class="row">
+                  <div class="col-12">
+                    <!-- <p class="q">Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque nunc?</p> -->
+                    <button type="button" class="collapsible">Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?&nbsp;&nbsp;&nbsp;&nbsp;    </button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="content">
+                      <p>Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+      
+
+            <div class="card">
+                <div class="row">
+                  <div class="col-12">
+                    <!-- <p class="q">Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque nunc?</p> -->
+                    <button type="button" class="collapsible">Lorem ipsum dolor sit amet consectetur. Tortor scelerisque integer?&nbsp;&nbsp; </button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="content">
+                      <p>Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
        
+    
+
+
+          <div class="card">
+            <div class="row">
+              <div class="col-12">
+                <!-- <p class="q">Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque nunc?</p> -->
+                <button type="button" class="collapsible">Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque nunc?&nbsp;&nbsp;</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+</div>
+</div>
+</div>
+
+
         <div class="col-12 col-md-3"></div>
-        
-        </div> -->
+      </div>
 
+   
+      
 
+    <!-- End of the FAQ -->
 
+<!-- footer -->
     <footer>
         <div class="container-fluid">
           
@@ -147,9 +207,46 @@
             </div>
               
             </div>
+
+            <div class="row">
+                <div class="col-12 col-md-3"></div>
+            <div class="col-12 col-md-6"><hr></div>
+            <div class="col-12 col-md-3"></div>
           </div> 
           
+          <div class="row">
+            <div class="col-12 col-md-3"></div>
+        <div class="col-12 col-md-6">
+          <p class="privacy">Privacy Policy | Terms & Conditions</p>  
+        </div>
+        <div class="col-12 col-md-3"></div>
+      </div> 
 
     </footer>
+    <!-- End of the footer -->
+
+
+
+    
+    <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.parentElement.parentElement.nextElementSibling.querySelector('.content');
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+</script>
+
+      
+      
+
 </body>
 </html>
